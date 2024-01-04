@@ -100,10 +100,10 @@ export default function App() {
       </div>
       {selectedCity && (
         <h2>
-          You Selected <span>{selectedCountry}</span>,
-          <span>
+          You selected <span className='city'>{selectedCountry}</span>,
+          <span className='state'>
             {" "}
-            {selectedState},{" "}{selectedCity}
+            {selectedState}, {selectedCity}
           </span>
         </h2>
       )}
