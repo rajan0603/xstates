@@ -103,7 +103,7 @@ export default function App() {
           You Selected <span>{selectedCountry}</span>,
           <span>
             {" "}
-            {selectedState},{selectedCity}
+            {selectedState},{" "}{selectedCity}
           </span>
         </h2>
       )}
